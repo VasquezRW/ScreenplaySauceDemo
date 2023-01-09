@@ -49,6 +49,9 @@ dependencies {
 
     // https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-remote-driver
     implementation group: 'org.seleniumhq.selenium', name: 'selenium-remote-driver', version: '4.7.2'
+
+    // https://mvnrepository.com/artifact/net.serenity-bdd/serenity-ensure
+    implementation group: 'net.serenity-bdd', name: 'serenity-ensure', version: '3.5.1'
 }
 
 test {
